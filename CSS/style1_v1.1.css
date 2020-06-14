@@ -1,0 +1,151 @@
+#top{
+
+  font-weight: bold;
+}
+
+/* CSS for placing the dropdown button to the rigght */
+.right-pos1{
+  position: absolute;
+  right: 40px;
+  top: 15px;
+}
+
+.my-image{
+  width: 40px;
+  border-radius: 100%;
+}
+
+
+/* CSS for the section abount */
+#about{
+  background-color: #6789E2;
+  text-align: center;
+  padding-bottom: 20px;
+
+  font-weight: bold;
+  color: #000000;
+}
+
+.programmer-image{
+  width: 20%;
+  padding-bottom: 20px;
+}
+
+
+
+.what-can-i-do-row{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.design-image{
+  width: 250px;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.dev-image{
+  width: 250px;
+  float: right;
+  margin-left: 30px;
+}
+
+.programming-img{
+  width: 300px;
+}
+
+.skills-section{
+  text-align: left;
+  line-height: 40px;
+}
+
+.skill-button{
+   color: black;
+   font-weight: bold;
+   border-color: black;
+}
+
+#strengths{
+  text-align: center;
+  background-color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  bottom: 10px;
+  color: #2475D2;
+}
+
+.carousel-item{
+  padding: 7% 20%;
+  text-align: left;
+}
+
+.carousel-images{
+  width: 350px;
+  float: left;
+  margin-right: 5px;
+}
+
+.carousel-paragraphs{
+  text-align: justify;
+}
+
+.about-Me{
+  text-align: left;
+  padding: 3% 15%;
+}
+
+.education-image{
+  width: 250px;
+  float: left;
+  margin-right: 50px;
+}
+
+
+
+.education-section{
+  padding: 30px 0 50px 0;
+  color: green;
+  line-height: 70px;
+  margin-bottom: 50px;
+}
+
+.publication{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#contact{
+  background-color: #2BA375;
+  bottom: 20px;
+  position: relative;
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding: 3% 20%;
+}
+
+.download-res{
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  z-index: 99;
+  display: none;
+}
+
+.top-button{
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  display: none;
+}
+
+
+.icons-desc{
+  font-size: 10px;
+  position: relative;
+  top: 60px;
+}

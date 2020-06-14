@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pratyush</title>
+  <meta name="description" content="Portfolio of Pratyush Kumar Patnaik, developer and engineer based in Hyderabad, India">
+  <meta name="keywords" content="pratyush, web design, website, developer, engineer, machine learning, front end">
+
+  <!-- SITE ICON -->
+  <link rel="icon" href="MEDIA/Me1.png">
+
+  <!-- BOOT STRAP CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- LOCAL CSS -->
+  <link rel="stylesheet" href="CSS/style1_v1.1.css">
+
+  <!-- BOOTSTRAP JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/7512d82df9.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body style="background-color: #2BA375">
+  <!-- NAVIGATION BAR SECTION -->
+  <section id="top">
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #053261;">
+      <div class="row">
+        <a class="navbar-brand col" href="index.html"><img src="MEDIA/Pratyush.jpg" class="my-image" alt=""></a>
+        <button class="navbar-toggler col-1 right-pos1 navbar-toggler-icon" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#skillButton">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutMeButton">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <div class="about-text">
+      <h4>Hello!</h4>
+      <h1>I am Pratyush</h1>
+      <h4>Nice to meet you</h4>
+      <img src="MEDIA/programmer.png" class="programmer-image" alt="">
+      <h4>I am an Engineer and a Programmer.</h4>
+      <h5>I am on a never-ending quest of Learning</h5>
+
+      <h6>How can I help you?</h6>
+      <div class="what-can-i-do">
+
+        <div class="what-can-i-do-row">
+          <img src="MEDIA/web_design.png" class="design-image" alt="">
+          <h4>I can design what you want</h4>
+          <p style="text-align: justify;">I can help you out in the creation of an idea, design a roadmap, and prepare the skills and resources that will be needed for its realization.</p>
+        </div>
+
+        <div class="what-can-i-do-row">
+          <img src="MEDIA/web_dev.png" class="dev-image" alt="">
+          <h4 style="clear: left;">I can develop what you need</h4>
+          <p style="text-align: justify;">I can help you understand the requirements of your ideas, put in a tonne of effort and turn them into reality.</p>
+        </div>
+
+
+        <!-- Hidden skills -->
+
+      </div>
+
+      <h6 id="skillButton" style="text-alignmeny: centre;
+    padding:30px 0px 10px 0px;
+    font-weight: bold;">
+        Here are my
+        <button onclick="toggleSymbolSkills()" class="btn btn-outline-dark" style="color: #000000; font-weight: bold;" type="button" data-toggle="collapse" data-target="#mySkills" aria-expanded="false" aria-controls="collapseExample">
+          Skills <i class="fas fa-caret-down"></i>
+        </button>
+      </h6>
+
+      <!-- my skills  -->
+      <div class="collapse" id="mySkills">
+        <h4>Here are the Skills that will help me help you</h4>
+        <img src="MEDIA/multitask.png" class="programming-img" alt="">
+        <div class="skills-section row">
+
+          <div class="col-md-6">
+            <h6 style="text-alignmeny: centre;
+          padding:30px 0px 10px 0px;
+          font-weight: bold;">Programming Skills</h6>
+            <a href="https://www.geeksforgeeks.org/c-plus-plus/" class="btn btn-primary skill-button" target="_blank">C/C++</a>
+            <a href="https://www.geeksforgeeks.org/csharp-programming-language/" target="_blank" class="btn btn-primary skill-button">C#</a>
+            <a href="https://en.wikipedia.org/wiki/Embedded_C" target="_blank" class="btn btn-primary skill-button">Embedded C</a>
+            <a href="https://www.geeksforgeeks.org/python-programming-language/" target="_blank" class="btn btn-primary skill-button">Python</a>
+            <a href="https://www.r-project.org/about.html" target="_blank" class="btn btn-primary skill-button">R</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="btn btn-primary skill-button">HTML</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class="btn btn-primary skill-button">CSS</a>
+            <a href="https://www.mysql.com/" target="_blank" class="btn btn-primary skill-button">MySQL</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class="btn btn-primary skill-button">JavaScript</a>
+            <a href="https://jquery.com/" target="_blank" class="btn btn-primary skill-button">jQuery</a>
+          </div>
+
+          <div class="col-md-6">
+            <h6 style="text-alignmeny: centre;
+          padding:30px 0px 10px 0px;
+          font-weight: bold;">Computational Softwares</h6>
+            <a href="https://www.mathworks.com/products/matlab.html" target="_blank" class="btn btn-primary skill-button">MATLAB</a>
+            <a href="https://www.ni.com/en-in/shop/labview.html" target="_blank" class="btn btn-primary skill-button">NI LabVIEW</a>
+            <a href="https://www.solidworks.com/" target="_blank" class="btn btn-primary skill-button">Solid Works</a>
+          </div>
+
+          <div class="col-md-6">
+            <h6 style="text-alignmeny: centre;
+          padding:30px 0px 10px 0px;
+          font-weight: bold;">IDEs</h6>
+            <a href="https://www.python.org/" target="_blank" class="btn btn-primary skill-button">Python Idle</a>
+            <a href="https://www.arduino.cc/en/main/software" target="_blank" class="btn btn-primary skill-button">Arduino IDE</a>
+            <a href="https://www.spyder-ide.org/" target="_blank" class="btn btn-primary skill-button">Spyder</a>
+            <a href="https://rstudio.com/products/rstudio/" target="_blank" class="btn btn-primary skill-button">R Studio</a>
+            <a href="https://visualstudio.microsoft.com/" target="_blank" class="btn btn-primary skill-button">Microsoft Visual Studio</a>
+            <a href="https://atom.io/" target="_blank" class="btn btn-primary skill-button">Atom</a>
+            <a href="https://www.texstudio.org/" target="_blank" class="btn btn-primary skill-button">TeXstudio</a>
+          </div>
+
+          <div class="col-md-6">
+            <h6 style="text-alignmeny: centre;
+          padding:30px 0px 10px 0px;
+          font-weight: bold;">Machine Learning</h6>
+            <a href="https://en.wikipedia.org/wiki/Regression_analysis" target="_blank" class="btn btn-primary skill-button">Regression Analysis</a>
+            <a href="https://en.wikipedia.org/wiki/Statistical_classification" target="_blank" class="btn btn-primary skill-button">Classification Techniques</a>
+            <a href="https://en.wikipedia.org/wiki/Cluster_analysis" target="_blank" class="btn btn-primary skill-button">Clustering Techniques</a>
+            <a href="https://scikit-learn.org/" target="_blank" class="btn btn-primary skill-button">scikit-learn</a>
+            <a href="https://pandas.pydata.org/" target="_blank" class="btn btn-primary skill-button">pandas</a>
+            <a href="https://numpy.org/" target="_blank" class="btn btn-primary skill-button">NumPy</a>
+            <a href="https://en.wikipedia.org/wiki/Natural_language_processing" target="_blank" class="btn btn-primary skill-button">Natural Language Processing</a>
+            <a href="https://en.wikipedia.org/wiki/Artificial_neural_network" target="_blank" class="btn btn-primary skill-button">Artificial Neural Network</a>
+            <a href="https://keras.io/" target="_blank" class="btn btn-primary skill-button">Keras</a>
+            <a href="https://matplotlib.org/" target="_blank" class="btn btn-primary skill-button">Matplotlib</a>
+          </div>
+
+          <div class="col-md-6">
+            <h6 style="text-alignmeny: centre;
+          padding:30px 0px 10px 0px;
+          font-weight: bold;">Knowledge Base</h6>
+            <a href="https://en.wikipedia.org/wiki/Circuit_design" target="_blank" class="btn btn-primary skill-button">Analog / Digital Circuit Design and Development Techniques</a>
+            <a href="https://en.wikipedia.org/wiki/Integrated_circuit" target="_blank" class="btn btn-primary skill-button">Integrated Circuits</a>
+            <a href="https://en.wikipedia.org/wiki/Embedded_system" target="_blank" class="btn btn-primary skill-button">Embedded systems</a>
+            <a href="https://en.wikipedia.org/wiki/Digital_image_processing" target="_blank" class="btn btn-primary skill-button">Image Processing</a>
+            <a href="https://en.wikipedia.org/wiki/Web_scraping" target="_blank" class="btn btn-primary skill-button">Web Scraping</a>
+            <a href="https://www.selenium.dev/" target="_blank" class="btn btn-primary skill-button">Selenium</a>
+            <a href="https://getbootstrap.com/" target="_blank" class="btn btn-primary skill-button">Bootstrap</a>
+          </div>
+
+          <div class="col-md-6">
+            <h6 style="text-alignmeny: centre;
+          padding:30px 0px 10px 0px;
+          font-weight: bold;">Miscellaneous</h6>
+            <a href="https://imagej.net/Welcome" target="_blank" class="btn btn-primary skill-button">ImageJ</a>
+            <a href="https://www.latex-project.org/" target="_blank" class="btn btn-primary skill-button">LATex</a>
+            <a href="https://www.ni.com/en-in/shop/select/multisim" target="_blank" class="btn btn-primary skill-button">NI Multisim</a>
+            <a href="https://www.ni.com/en-in/shop/select/ultiboard" target="_blank" class="btn btn-primary skill-button">NI Ultiboard</a>
+            <a href="https://www.autodesk.in/products/eagle/overview" target="_blank" class="btn btn-primary skill-button">Eagle</a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <section id="strengths">
+    <h5 style="padding-top: 40px;">Here is why you would like to hire me</h5>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h4>Hard Working</h4>
+          <img src="MEDIA/Hardwork.png" class="carousel-images" alt="...">
+          <p class="carousel-paragraphs">
+            Hard work is one of my best talents. Through rigorous dedication and determination,
+            I can find solutions to a wide variety of problems. If I don't know the answer to a problem,
+            I give my all in learning the methods to solve the problem.
+          </p>
+        </div>
+
+        <div class="carousel-item">
+          <h4>Eye for Details</h4>
+          <img src="MEDIA/eye_for_detail.png" class="carousel-images" alt="...">
+          <p class="carousel-paragraphs">
+            Working in various fields, designing and developing, publishing various research articles have
+            enabled me to have an eye for the finer details that are easy to miss.
+          </p>
+        </div>
+
+        <div class="carousel-item">
+          <h4>Jack of All Trades</h4>
+          <img src="MEDIA/joat.png" class="carousel-images" alt="...">
+          <p class="carousel-paragraphs">
+            Over the course of my academic life and employment, I came across various problems that required a different method of approach.
+            These had to be dealt with differently, thus I had to go out of my way to learn various skills needed for
+            the particular task. The various skill sets that I know have made me a very dynamic person when solving problems.
+            Working in various fields, designing and developing, publishing various research articles have enabled me
+            to have an eye for the finer details that are easy to miss.
+          </p>
+        </div>
+
+        <div class="carousel-item">
+          <h4>Quick Learner</h4>
+          <img src="MEDIA/machine learning.gif" class="carousel-images" alt="...">
+          <p class="carousel-paragraphs">
+            Due to my hard work and experience with various domains,
+            I can learn a new skill very fast and very easily as I most likely have
+            already come across similar technology so that I can relate it and learn easily.
+          </p>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    <h6 id="aboutMeButton" style="text-alignmeny: centre;
+  padding:30px 0px 10px 0px;
+  font-weight: bold;">
+      If you want to know more about me, please feel free to
+      <button onclick="toggleSymbolAboutMe()" class="btn btn-outline-primary" style="font-weight: bold;" type="button" data-toggle="collapse" data-target="#aboutMe" aria-expanded="false" aria-controls="collapseExample">
+        Look around <i class="fas fa-caret-down"></i>
+      </button>
+    </h6>
+    <!-- about me content -->
+    <div class="collapse about-Me" id="aboutMe">
+      <p style="text-align: justify; color: grey;">
+        Ever since I was a kid, the world fascinated me as it unfolded its culture, history and technology.
+        I developed a knack for building things. This led me to take Instrumentation Engineering during my college days.
+        One of the biggest achievements of my life was getting selected for the Master's program in one of the
+        major institutes in the country. Here I learned the art of research and understood the ways to efficiently
+        expand my knowledge base. I am currently learning to use Flutter for a pet project of mine.
+      </p>
+      <section class="education-section">
+        <img src="MEDIA/education.png" class="education-image" alt="">
+        <h4>Education</h4>
+        <h6>Masters in Biomedical Engineering (M. Tech) with Specialization in <em>Medical Electronics and Instrumentation</em>, <a href="https://www.nitrkl.ac.in/" target="_blank" class="btn btn-outline-success">National Institute of Technology,
+            Rourkela</a></h6>
+        <h6>Bachelors in Applied Electronics and Instrumentation Engineering (B.Tech), <a href="https://bput.ac.in/" target="_blank" class="btn btn-outline-success">Biju Patnaik University of Technology (BPUT)</a></h6>
+      </section>
+
+      <!-- publications  -->
+      <section class="publication">
+        <h4><i class="fas fa-search"></i> Publications</h4>
+
+        <a href="https://www.inderscienceonline.com/doi/abs/10.1504/IJSNET.2019.098287" style="text-align: justify;" target="_blank" class="btn btn-outline-primary">
+          Patnaik, Pratyush Kumar, Suraj Kumar Nayak, Anilesh Dey, Sirsendu
+          Sekhar Ray, and Kunal Pal. "Development of a wireless intravenous
+          drip rate monitoring device." International Journal of Sensor Networks
+          29, no. 3 (2019): 159-170.
+        </a>
+
+        <a href="https://link.springer.com/chapter/10.1007/978-981-10-7751-7_12" style="text-align: justify;" target="_blank" class="btn btn-outline-primary">
+          Sharma Ankit, Pratyush K. Patnaik, Seemadri Subhadarshini, Suraj K.
+          Nayak, Sirsendu S. Ray, D. N. Tibarewala, and Kunal Pal. ”Designing
+          of a Low-Cost Optical Density Meter for Medical Applications.” In En-
+          vironmental, Chemical and Medical Sensors, pp. 271-285. Springer,
+          Singapore, 2018.
+        </a>
+
+        <a href="https://ieeexplore.ieee.org/abstract/document/8282047" style="text-align: justify;" target="_blank" class="btn btn-outline-primary">
+          Nayak Suraj K., Karan Pande, Pratyush K. Patnaik, Shankar J. Patel,
+          Arfat Anis, Anilesh Dey, and Kunal Pal. ”Understanding the effect of
+          cannabis abuse on the ANS and cardiac physiology of the Indian women
+          paddy-field workers using RR interval and ECG signal analyses.” In Asia-
+          Pacific Signal and Information Processing Association Annual Summit
+          and Conference (APSIPA ASC), 2017, pp. 333-341. IEEE, 2017.
+        </a>
+
+        <a href="https://www.sciencedirect.com/science/article/pii/B9780081024201000030" style="text-align: justify;" target="_blank" class="btn btn-outline-primary">
+          Pande, Karan, Ashirbad Pradhan, Suraj Kumar Nayak, Pratyush Kumar
+          Patnaik, Biswajeet Champaty, Arfat Anis, and Kunal Pal. "Development
+          of a voice-controlled home automation system for the differently-abled."
+          In Bioelectronics and Medical Devices, pp. 31-45. Woodhead Publish-
+          ing, 2019.
+        </a>
+
+        <a href="https://www.sciencedirect.com/science/article/pii/B9780081024201000029" style="text-align: justify;" target="_blank" class="btn btn-outline-primary">
+          Patnaik, Pratyush K., Paresh Mahapatra, Dibyajyoti Biswal, Suraj K. Nayak,
+          Sachin Kumar, Biswajeet Champaty, and Kunal Pal. "Development of a
+          low-cost color sensor for biomedical applications." In Bioelectronics
+          and Medical Devices, pp. 15-29. Woodhead Publishing, 2019.
+        </a>
+
+        <a href="https://www.sciencedirect.com/science/article/pii/B9780081024201000017" style="text-align: justify;" target="_blank" class="btn btn-outline-primary">
+          Patnaik, Pratyush K., Suraj K. Nayak, Ashirbad Pradhan, V. Amrutha,
+          Champak Bhattacharya, Sirsendu S. Ray, and Kunal Pal.
+          "Light-fidelity based biosignal transmission." In Bioelectronics and Medical Devices,
+          pp. 1-14. Woodhead Publishing, 2019.
+        </a>
+
+        <a href="https://link.springer.com/article/10.1007/s11696-018-0414-x" style="text-align: justify;" target="_blank" class="btn btn-outline-primary">
+          Sharma, Vivek, Pratyush Patnaik, K. Senthilguru, Suraj K. Nayak, Irshaan Syed,
+          Vinay K. Singh, Preetam Sarkar, Goutam Thakur, and Kunal Pal. "Preparation and characterization
+          of novel tamarind gum-based hydrogels for antimicrobial drug delivery applications.
+          " Chemical Papers 72, no. 8 (2018): 2101-2113.
+        </a>
+
+      </section>
+
+      <!-- Interest and Activities -->
+      <section>
+        <h4>Interest and Activities</h4>
+        <div class="">
+          <button type="button" class="btn btn-outline-primary">Learning new Technologies</button>
+          <button type="button" class="btn btn-outline-primary">Programming</button>
+          <button type="button" class="btn btn-outline-primary">Gaming</button>
+        </div>
+        <div class="">
+          <button type="button" class="btn btn-outline-primary">Swimming</button>
+          <button type="button" class="btn btn-outline-primary">Skating</button>
+          <button type="button" class="btn btn-outline-primary">Traveling</button>
+        </div>
+        <div class="">
+          <button type="button" class="btn btn-outline-primary">Reading Novels</button>
+          <button type="button" class="btn btn-outline-primary">Music</button>
+          <button type="button" class="btn btn-outline-primary">Movies</button>
+          <button type="button" class="btn btn-outline-primary">Manga and Comics</button>
+          <button type="button" class="btn btn-outline-primary">Anime</button>
+          <button type="button" class="btn btn-outline-primary">TV Series</button>
+          <button type="button" class="btn btn-outline-primary">Baking</button>
+        </div>
+      </section>
+
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <h4 style="text-align: center;">Drop by for a chat now and then</h4>
+    <h6 style="display: inline-block"><i class="fas fa-mobile-alt"></i> +91-9583834186</h6>
+    <h6 style="display: inline-block"><i class="fas fa-mobile-alt"></i> +91-7978236726</h6>
+    <h6 style="display: inline-block"><a href="mailto:pratyush130293@gmail.com" class="far fa-envelope" style="color: black;"></a> pratyush130293@gmail.com</h6>
+    <h6 style="display: inline-block"><a href="mailto:pratyushkpatnaik@gmail.com" class="far fa-envelope" style="color: black;"></a> pratyushkpatnaik@gmail.com</h6>
+    <br>
+    <a href="https://www.linkedin.com/in/pratyush-patnaik-3a2724120/" target="_blank" style="color: black;"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.facebook.com/pratyush.kumarpatnaik/" target="_blank" style="color: black;"><i class="fab fa-facebook"></i></a>
+
+
+    <p class="icons-desc">
+      This site was made completely made using HTML, JS and CSS. Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+    </p>
+
+  </section>
+
+  <a href="Pratyush_Resume_1.pdf" target="_blank" class="btn btn-dark download-res" download>Download Resume</a>
+
+  <a href="#top" class="top-button btn btn-primary">
+    Go to Top
+  </a>
+
+
+
+  <script type="text/javascript" src="JS/index.js"> </script>
+</body>
+
+</html>
